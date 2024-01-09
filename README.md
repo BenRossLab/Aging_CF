@@ -36,7 +36,7 @@ This figure shows the results of the unsupervised machine learning models create
 
 ### [Figure 4:](Figures/Figure4_submission.pdf) Volcano plots of significant species 
 
-This figure shows volcano plots of species abundance across phases (Developmental: 0-12 Months, Transitional: 13-18 Months, Stable: 19-36 Months) with the Dartmouth CF cohort separately compared with TEDDY and DIABIMMUNE.
+This figure shows volcano plots of species abundance across phases (Developmental: 0-12 Months, Transitional: 12-18 Months, Stable: 18-36 Months) with the Dartmouth CF cohort separately compared with TEDDY and DIABIMMUNE.
 
 - Plots were generated from `Code_for_Figures/Lib/Functional_Pathways.R`
 
@@ -58,7 +58,7 @@ A-B. *F. prauznitzii* strain prevalence across datasets
 
 C. Phylogenetic tree showing *F. prausnitzii* strains detected in Dartmouth CF cohort clustering with publically available cat metagenomes
 
-D. The number of Faecalibacterium clades present across datasets and by phase
+D. The number of *Faecalibacterium* clades present across datasets and by phase
 
 - Clade figure was generated from `Code_for_Figures/Lib/Faecalibacterium_Boxplots.R`
 
@@ -121,12 +121,14 @@ DMM clustering of Celiac Disease infants compared to the TEDDY and DIABIMMUNE co
 - Plot generated from `Code_for_Figures/Lib/DMM_Clustering.R`
 
 ### [Supplemental Figure 9:](Figures/FigureS9_submission.pdf) HUMAnN metabolic analysis comparison of Dartmouth CF and TEDDY cohorts
-Plots showing Dartmouth compared to TEDDY HUMAnN analysis in a heatmap, plus most important species based on a Wilcoxon ranked sum test. Then showing top species function distribution, followed by the top species based on average relative abundances for comparison. 
+
+Plots showing Dartmouth compared to TEDDY HUMAnN analysis in a heatmap using the significant pathways identified from a MaAsLin2 analysis.
 
 - Plot generated from `Code_for_Figures/Lib/Functional_Pathways.R`
 
 ### [Supplemental Figure 10:](Figures/FigureS10_submission.pdf) HUMAnN metabolic analysis comparison of Dartmouth CF and DIABIMMUNE cohorts
-Plots showing Dartmouth compared to DIABIMMUNE HUMAnN analysis in a heatmap, plus most important species based on a Wilcoxon ranked sum test. Then showing top species function distribution, followed by the top species based on average relative abundances for comparison. 
+
+Plots showing Dartmouth compared to DIABIMMUNE HUMAnN analysis in a heatmap using the significant pathways identified from a MaAsLin2 analysis.
 
 - Plot generated from `Code_for_Figures/Lib/Functional_Pathways.R`
 
