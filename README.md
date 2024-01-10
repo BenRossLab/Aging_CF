@@ -96,7 +96,7 @@ The age model is validated by comparing the models created with the TEDDY and DI
 
 - Plot generated from `Code_for_Figures/Lib/InfantAgeModels.R`
 
-### [Supplemental Figure 5:](Figures/FigureS5_submission,pdf) Heatmaps for DMM clusters
+### [Supplemental Figure 5:](Figures/FigureS5_submission.pdf) Heatmaps for DMM clusters
 
 This figure shows the species abundances for each sample in each cluster resulting from the unsupervised machine learning methods used in this work.
 
